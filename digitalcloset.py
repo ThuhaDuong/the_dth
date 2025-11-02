@@ -7,21 +7,20 @@ from PIL import Image, ImageTk  # ✅ Add this line
 # Wardrobe with image file paths
 wardrobe = {
     "tops": [
-        ("White T-shirt", "white-t-shirt-women-png.webp"),
-        ("Black Blouse", "png-clipart-shirts-black-scoop-neck-blouse.png"),
-        ("Blue Hoodie", "hoodie-adidas-jacket-clothing-png-favpng-5GXm1nyrGvpvJ14e2YRByPuWX.jpg")
+        ("Hollister Hoodie", "/mnt/data/hoodie.png"),
+        ("Pink Fur Coat", "/mnt/data/fur coat.png"),
+        ("Pink Baby Doll", "/mnt/data/White babydoll.png")
     ],
     "bottoms": [
-        ("Jeans", "ca7b80d078d888ac8974df6ed5a6f670.jpg"),
-        ("Black Skirt", "black-resourcesforbitches-black-and-white-mini-skirt.jpg"),
-        ("Cargo Pants", "cargopant.jpeg")
+        ("Black Mini Skirt", "/mnt/data/mini dress.png"),
+        ("Jeans", "/mnt/data/jeans 1.png"),
+        ("Yellow Halter Top", "/mnt/data/yellow halter.png")
     ],
     "shoes": [
-        ("Sneakers", "sneaker.webp"),
-        ("Boots", "boots.jpeg"),
-        ("Heels", "elegant-black-patent-leather-high-heels-with-red-insoles_191095-86032.jpg")
-    ]
-}
+        ("Brown Flats", "/mnt/data/brown flat.png"),
+        ("Blue Converse", "/mnt/data/blue converse.png"),
+        ("Brown Oxford Shoes", "/mnt/data/brown oxford.png")
+    }
 
 
 class DigitalCloset(tk.Tk):
