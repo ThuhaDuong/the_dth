@@ -1,22 +1,22 @@
 import tkinter as tk
 from tkinter import ttk
-from PIL import Image, ImageTk  # ✅ Add this line
+from PIL import Image, ImageTk
 
 
 # Wardrobe with image file paths
 wardrobe = {
 "tops": [
         ("Hollister Hoodie", "./assets/hoodie.png"),
-        # ("Pink Fur Coat", "./assets/fur coat.png"),
-        # ("Pink Baby Doll", "./assets/White babydoll.png")    
+        ("Grey Sweater", "./assets/grey-knit-sweater.png"),
+        ("Radiohead Tshirt", "./assets/band_t-shirt.png")    
     ],
 "bottoms": [
         ("Black Mini Skirt", "./assets/mini_dress.png"),
         ("Jeans", "./assets/jeans_1.png"),
-        # ("Yellow Halter Top", "./assets/yellow halter.png")
+        ("Tracksuit Pants", "./assets/tracksuit_pant.png")
     ],
 "shoes": [
-        # ("Brown Flats", "./assets/brown flat.png"),
+        ("Brown Boots", "./assets/brown_boots.png"),
         ("Blue Converse", "./assets/blue_converse.png"),
         ("Brown Oxford Shoes", "./assets/brown_oxford.png")
     ]
