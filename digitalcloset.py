@@ -1,27 +1,26 @@
-
 import tkinter as tk
 from tkinter import ttk
 from PIL import Image, ImageTk  # ✅ Add this line
 
 
 # Wardrobe with image file paths
-wardrobe = {}
+wardrobe = {
 "tops": [
-        ("Hollister Hoodie", "/mnt/data/hoodie.png"),
-        ("Pink Fur Coat", "/mnt/data/fur coat.png"),
-        ("Pink Baby Doll", "/mnt/data/White babydoll.png")
-    
-  ]
+        ("Hollister Hoodie", "./assets/hoodie.png"),
+        # ("Pink Fur Coat", "./assets/fur coat.png"),
+        # ("Pink Baby Doll", "./assets/White babydoll.png")    
+    ],
 "bottoms": [
-        ("Black Mini Skirt", "/mnt/data/mini dress.png"),
-        ("Jeans", "/mnt/data/jeans 1.png"),
-        ("Yellow Halter Top", "/mnt/data/yellow halter.png")
-    ]
+        ("Black Mini Skirt", "./assets/mini_dress.png"),
+        ("Jeans", "./assets/jeans_1.png"),
+        # ("Yellow Halter Top", "./assets/yellow halter.png")
+    ],
 "shoes": [
-        ("Brown Flats", "/mnt/data/brown flat.png"),
-        ("Blue Converse", "/mnt/data/blue converse.png"),
-        ("Brown Oxford Shoes", "/mnt/data/brown oxford.png")
+        # ("Brown Flats", "./assets/brown flat.png"),
+        ("Blue Converse", "./assets/blue_converse.png"),
+        ("Brown Oxford Shoes", "./assets/brown_oxford.png")
     ]
+}
 
 class DigitalCloset(tk.Tk):
     def __init__(self):
